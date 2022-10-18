@@ -1,0 +1,33 @@
+.container {
+    // brekpoint
+
+    // responsive - 320px-480px
+
+    // mobile - 480 px
+    // tablet - 768 px
+    // desktop - 1200 px
+
+
+    // mobile
+    max-width: 480px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    // outline: 2px solid red;
+
+    // tablet
+    @media screen and (min-width: 768px) {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    // desktop
+    @media screen and (min-width: 1200px) {
+        max-width: 1200px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

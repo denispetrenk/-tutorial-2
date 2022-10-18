@@ -1,0 +1,31 @@
+@import './common';
+
+// utils styles
+@import './utils/vars';
+@import './utils/visually-hidden';
+
+// components styles
+@import './components/social';
+@import './components/btn';
+
+// base styles
+@import './base/reset';
+@import './base/base';
+@import './base/container';
+
+// layouts styles
+@import './layouts/hero-header';
+@import './layouts/products';
+@import './layouts/about';
+@import './layouts/advantages';
+@import './layouts/gallery';
+@import './layouts/customer-reviews';
+@import './layouts/contacts';
+@import './layouts/footer';
+
+// modal styles
+@import './layouts/modal-hero';
+@import './layouts/modal-products';
+@import './layouts/modal-about';
+@import './layouts/modal-contacts__our-locations';
+@import './layouts/modal-contacts__franchise';
